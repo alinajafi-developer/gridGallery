@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: #f7f7f7;
+    position: relative;
+}
+
+h1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 50px 0;
+    padding: 10px;
+    position: absolute;
+    top: 40px;
+    text-shadow: 0 0 2px rgb(128, 85, 36);
+    color: rgb(190, 158, 115);
+}
+
+.container {
+    width: 80%;
+    height: 450px;
+    border: 5px solid rgb(219, 210, 199);
+    offset: 10px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 5px;
+    padding: 15px;
+    border-radius: 5px
+}
+
+.container>* {
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
+    filter: brightness(70%);
+    
+}
+
+.container>div:nth-of-type(1) {
+    background-image: url('img/coffee.jfif');
+    background-size: cover;
+    background-position: center;
+    grid-row: 1 / span 3;
+    
+}
+
+
+
+.container>div:nth-of-type(2) {
+    background-image: url('img/keyboard.jfif');
+    background-size: cover;
+    background-position: right;
+    grid-row: 1 / span 4;    
+}
+
+
+.container>div:nth-of-type(3) {
+    background-image: url('img/keyboard2.jpg');
+    background-size: 100% auto;
+    background-position: right;
+    grid-row: 1 / span 3;    
+  
+}
+
+.container>div:nth-of-type(4) {
+    background-image: url('img/phone.jfif');
+    background-size: cover;
+    background-position: right;
+    grid-row: 1 / span 4;       
+}
+
+.container>div:nth-of-type(5) {
+    background-image: url('img/whatch1.jfif');
+    background-size: cover;
+    background-position: center;
+    grid-row: 1 / span 3;       
+     
+}
+
+
+.container>div:nth-of-type(6) {
+    background-image: url('img/whatch2.jfif');
+    background-size: cover;
+    background-position: center;
+    grid-row: 1 / span 4;       
+
+}
+
+
+.container>div:hover {
+    z-index: 999;
+    transform: scale(2);
+    box-shadow: 0 0 3px 2px gray;
+    filter: brightness(100%);
+}
