@@ -6,9 +6,9 @@
 
 
 
-- [Demo Project](https://aliafrouz.github.io/gridGallery/)
+- [Demo Project](https://alinajafi-developer.github.io/gridGallery/)
 
-- Developed by Ali Afrouz
+- Developed by Ali Najafi
 
 - Created - 2023-10-23
 
@@ -18,4 +18,4 @@
 
 - Role - Frontend
 
-- How to reach me : with my [instagram](https://www.instagram.com/aliafrouz_com) and [linkedin](https://www.linkedin.com/in/aliafrouz/)
+- How to reach me : with my [instagram](https://www.instagram.com/alinajafi_developer) and [linkedin](https://www.linkedin.com/in/alinajafi-developer/)
